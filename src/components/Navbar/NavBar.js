@@ -1,25 +1,32 @@
 import './navbar.css';
 import CartWidget from '../Cartwidget/CartWidget';
+import Icono from '../Icono/Icono';
+import { NavLink} from 'react-router-dom';
 
 const NavBar = () => {
     return (
     <header>
-        <h1>Mercadito Tech</h1>
         <ul className="Navegador">
             <li>
-                <a className="List" href="index.html">Inicio</a>
+               <Icono />
             </li>
             <li>
-                <a className="List" href="index.html">Tienda</a>
+                <NavLink className="nav__link" to='/'> Inicio</NavLink>
             </li>
             <li>
-                <a className="List" href="index.html">Contacto</a>
+                <NavLink className="nav__link" to='/categoria/notebooks'> Notebooks</NavLink>
             </li>
             <li>
-                <a className="List" href="index.html">Quienes somos?</a>
+                <NavLink className="nav__link" to='/categoria/celulares'> Celulares</NavLink>
             </li>
             <li>
-                <CartWidget  />
+                <NavLink className="nav__link" to='/categoria/televisores'> Televisores</NavLink>
+            </li>
+            <li>
+                <NavLink className="nav__link" to='cart'>
+                    <CartWidget  /> 
+                </NavLink>
+                
             </li>
         </ul>
     </header>

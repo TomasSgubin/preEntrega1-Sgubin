@@ -1,18 +1,19 @@
 .Navegador {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(98, 125, 184);
-    margin-top: 3px;
-    font-size: 1.5rem;
+    justify-content: space-evenly;
+    background-color: rgb(189, 191, 194);
+    font-size: 1.3rem;
     list-style: none;
     align-items: center   
 };
 
-ul li a {
-     text-decoration: none;    
+.nav__link {
+    text-decoration: none;
+    color: rgb(17, 11, 4);
 }
 
-.List {
-    text-decoration: none;
-    color: black;
+ul li a{
+     text-decoration: none; 
+     color: black;   
 }
+
