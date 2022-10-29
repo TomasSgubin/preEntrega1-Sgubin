@@ -1,0 +1,28 @@
+.titulo2{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.contenido1{
+    color: black;
+    width: 350px;
+    margin: auto;
+    background-color: rgb(207, 99, 99);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 12px;
+    
+}
+
+.contenido2 {
+    border-bottom: 1px solid gray;
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    background-color: rgb(179, 174, 174);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 12px;
+}
